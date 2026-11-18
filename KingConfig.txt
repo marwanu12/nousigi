@@ -270,6 +270,7 @@ getgenv().Config = {
 		["Auto Vote Start"] = true
 	},
 	["Party"] = {
+		["Auto Join Server"] = true,
 		["Auto Party"] = true,
 		["Members"] = {
 			[1] = "mahmoudplay",
