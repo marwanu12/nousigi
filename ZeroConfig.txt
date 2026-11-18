@@ -24,6 +24,7 @@ getgenv().Config = {
 		["Auto Claim Battlepass"] = true
 	},
 	["Party"] = {
+		["Auto Join Server"] = true,
 		["Host Name"] = "Asool4",
 		["Mode"] = "Member",
 		["Auto Party"] = true,
