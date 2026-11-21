@@ -1,10 +1,10 @@
 getgenv().Config = {
 	["Inventory"] = {
-		["Auto Sell Charms"] = true,
-		["Keep Best Charms"] = 4,
 		["Auto Open Star"] = {
 			["Summer Star"] = true
-		}
+		},
+		["Keep Best Charms"] = 4,
+		["Auto Sell Charms"] = true
 	},
 	["Misc"] = {
 		["Redeem Code"] = true
@@ -22,56 +22,12 @@ getgenv().Config = {
 	["Auto Join Setting"] = {
 		["Disable Auto Joiners"] = true
 	},
-	["Claimer"] = {
-		["Auto Claim Level Milestone"] = true,
-		["Auto Claim Quest"] = true,
-		["Auto Accept Daily Mission"] = true,
-		["Auto Claim Battlepass"] = true
+	["Game Finished"] = {
+		["Auto Return Lobby"] = true
 	},
-	["Party"] = {
-		["Auto Join Server"] = true,
-		["Host Name"] = "Asool4",
-		["Mode"] = "Member",
-		["Auto Party"] = true,
-		["Server ID"] = "1E0S-F0QV"
-	},
-	["Secure"] = {
-		["Walk Around"] = true
-	},
-	["Dungeon Run Joiner"] = {
-		["Buy Prioritize"] = {
-			["Solar Cleaver"] = 29,
-			["Dagger"] = 2,
-			["Axe"] = 5,
-			["Magic Tome"] = 19,
-			["Sword"] = 13,
-			["Golden Fishhook"] = 16,
-			["Sylvanthorn"] = 31,
-			["Mage Coat"] = 10,
-			["Fishhook"] = 6,
-			["Ninja Belt"] = 11,
-			["Celestial Blade"] = 24,
-			["Glacial Axe"] = 15,
-			["Aureus Maul"] = 23,
-			["Bow"] = 1,
-			["Philosopher's Stone"] = 27,
-			["Treasure Chest"] = 4,
-			["Golden Mushroom"] = 17,
-			["Shimmering Moon Fragment"] = 28,
-			["Speedy Boots"] = 21,
-			["Headsplitter"] = 18,
-			["Stormbringer"] = 30,
-			["Scimitar"] = 20,
-			["Ice Dagger"] = 8,
-			["Archmage's Hat"] = 22,
-			["Genie Lamp"] = 25,
-			["Reaper Scythe"] = 12,
-			["Longbow"] = 9,
-			["Nimble Cloak"] = 3,
-			["Mask of Riches"] = 26,
-			["Golden Branch"] = 7,
-			["Elf Bow"] = 14
-		}
+	["Performance"] = {
+		["Delete Map"] = true,
+		["Boost FPS"] = true
 	},
 	["Summer Hunt Joiner"] = {
 		["Matchmaking"] = true,
@@ -79,28 +35,75 @@ getgenv().Config = {
 			["Clear"] = true,
 			["Blizzard"] = true,
 			["Stormy"] = true,
-			["Flooded"] = true,
+			["Inferno"] = true,
 			["Rainy"] = true,
 			["Windy"] = true,
 			["Sandstorm"] = true,
-			["Magical"] = true,
 			["Starfall"] = true,
-			["Inferno"] = true
+			["Magical"] = true,
+			["Flooded"] = true
 		},
 		["Auto Join"] = true
 	},
+	["Dungeon Run Joiner"] = {
+		["Buy Prioritize"] = {
+			["Solar Cleaver"] = 29,
+			["Nimble Cloak"] = 3,
+			["Axe"] = 5,
+			["Magic Tome"] = 19,
+			["Sword"] = 13,
+			["Mage Coat"] = 10,
+			["Mask of Riches"] = 26,
+			["Fishhook"] = 6,
+			["Celestial Blade"] = 24,
+			["Ninja Belt"] = 11,
+			["Dagger"] = 2,
+			["Philosopher's Stone"] = 27,
+			["Genie Lamp"] = 25,
+			["Bow"] = 1,
+			["Glacial Axe"] = 15,
+			["Treasure Chest"] = 4,
+			["Archmage's Hat"] = 22,
+			["Shimmering Moon Fragment"] = 28,
+			["Speedy Boots"] = 21,
+			["Scimitar"] = 20,
+			["Stormbringer"] = 30,
+			["Headsplitter"] = 18,
+			["Ice Dagger"] = 8,
+			["Golden Mushroom"] = 17,
+			["Aureus Maul"] = 23,
+			["Reaper Scythe"] = 12,
+			["Longbow"] = 9,
+			["Golden Fishhook"] = 16,
+			["Sylvanthorn"] = 31,
+			["Golden Branch"] = 7,
+			["Elf Bow"] = 14
+		}
+	},
+	["Secure"] = {
+		["Walk Around"] = true
+	},
+	["Party"] = {
+		["Auto Join Server"] = true,
+		["Host Name"] = "Asool4",
+		["Auto Party"] = true,
+		["Mode"] = "Member",
+		["Server ID"] = "1E0S-F0QV"
+	},
+	["Claimer"] = {
+		["Auto Claim Quest"] = true,
+		["Auto Accept Daily Mission"] = true,
+		["Auto Claim Level Milestone"] = true,
+		["Auto Claim Battlepass"] = true
+	},
 	["Webhook"] = {
-		["Mention"] = "548143135453347865",
+		["Sent with Unit Stat"] = true,
 		["Unit Summoned"] = true,
 		["URL"] = "https://discord.com/api/webhooks/1569690931031179349/qrLPnZD-SE_cx3ne9kQik2vmBApUgudVfXTHP3xLX_wg9tWhXCrAciKqjp1HgdSr2Mph",
 		["Game Finished"] = true,
-		["Sent with Unit Stat"] = true,
+		["Mention"] = "548143135453347865",
 		["Dungeon Chest Opened"] = true,
 		["Show Session Data"] = true
-	},
-	["Performance"] = {
-		["Delete Map"] = true,
-		["Boost FPS"] = true
 	},
 	["Auto Play"] = {
 		["Auto Upgrade"] = {
@@ -116,33 +119,36 @@ getgenv().Config = {
 				["6"] = -1
 			}
 		},
+		["Auto Target"] = {
+			["Enable"] = true
+		},
+		["Enable"] = true,
+		["Middle Hill Position"] = 10,
+		["Hybrid Placement"] = "Hill",
 		["Place Order"] = {
 			["3"] = 2,
 			["2"] = 3
 		},
 		["Ignore Place Unit"] = {
-			["Legendary Assassin (Prime)"] = true,
-			["Legendary Assassin"] = true
+			["Legendary Assassin"] = true,
+			["Legendary Assassin (Prime)"] = true
 		},
-		["Enable"] = true,
-		["Middle Hill Position"] = 10,
-		["Hybrid Placement"] = "Hill",
 		["Middle Ground Position"] = 11
 	},
 	["Gameplay"] = {
 		["Auto Modifier"] = {
 			["Prioritize"] = {
-				["[Blizzard] Whiteout"] = 50,
+				["[Inferno] Phoenix"] = 44,
 				["Double Range"] = 17,
 				["Enemy Health III"] = 95,
 				["[Rainy] Mud"] = 37,
 				["Random Curses I"] = 71,
-				["[Flooded] Tsunami"] = 16,
+				["New Path"] = 100,
 				["[Windy] Cyclone"] = 49,
-				["Attack I"] = 90,
+				["Attack III"] = 92,
 				["Enemy Speed II"] = 82,
 				["[Stormy] Lighting Rod"] = 0,
-				["Range III"] = 98,
+				["Resistant Enemies I"] = 72,
 				["Resistant Enemies II"] = 4,
 				["Active Cooldown III"] = 57,
 				["[Stormy] Thunderhead"] = 30,
@@ -151,89 +157,89 @@ getgenv().Config = {
 				["Enemy Shield I"] = 89,
 				["[Starfall] Stardust"] = 25,
 				["[Stormy] Conductor"] = 31,
-				["[Sandstorm] Haboob"] = 7,
+				["[Stormy] Eye of the Storm"] = 33,
 				["[Flooded] Low Tide"] = 15,
 				["[Blizzard] Ice Breaker"] = 52,
 				["Active Cooldown I"] = 59,
-				["Enemy Regen II"] = 85,
+				["Random Curses II"] = 70,
 				["Enemy Shield II"] = 88,
-				["[Flooded] Tidal Surge"] = 13,
+				["Random Curses III"] = 69,
 				["[Magical] Mana Surge"] = 21,
-				["Cooldown III"] = 80,
+				["Enemy Health II"] = 94,
 				["Boss Damage I"] = 63,
 				["[Inferno] Heatwave"] = 43,
 				["Double Attack"] = 99,
 				["[Sandstorm] Sandblast"] = 11,
-				["[Rainy] Washout"] = 38,
+				["[Blizzard] Permafrost"] = 54,
 				["[Stormy] Lightning Rod"] = 32,
 				["Enemy Shield III"] = 87,
-				["[Windy] Kite Strings"] = 46,
+				["Plated Enemies III"] = 2,
 				["[Starfall] Cosmic Rays"] = 24,
-				["Explosive Deaths I"] = 77,
+				["Attack II"] = 91,
 				["[Windy] Crosswind"] = 45,
 				["Enemy Health I"] = 93,
-				["Boss Damage III"] = 65,
-				["Plated Enemies III"] = 2,
-				["[Magical] Arcane Ward"] = 19,
-				["Random Blessings III"] = 68,
-				["Enemy Health II"] = 94,
+				["[Windy] Gale"] = 48,
+				["Explosive Deaths I"] = 77,
+				["[Rainy] Washout"] = 38,
+				["Cooldown III"] = 80,
+				["[Flooded] Tidal Surge"] = 13,
 				["[Starfall] Wishing Star"] = 28,
-				["Random Curses II"] = 70,
-				["[Flooded] Rising Tide"] = 17,
+				["Enemy Regen III"] = 84,
+				["Random Blessings III"] = 68,
 				["Yen II"] = 61,
-				["Spellproof Enemies III"] = 3,
-				["Double Attack, Double Cooldown"] = 17,
-				["Plated Enemies II"] = 5,
-				["Resistant Enemies I"] = 72,
-				["Cooldown I"] = 78,
-				["[Blizzard] Hailstorm"] = 55,
-				["[Sandstorm] Clear Skies"] = 10,
-				["Plated Enemies I"] = 73,
+				["[Flooded] Rising Tide"] = 17,
+				["Double Attack, Half Range"] = 17,
+				["[Magical] Dispel"] = 22,
+				["[Sandstorm] Haboob"] = 7,
 				["[Windy] Grounded"] = 47,
-				["New Path"] = 100,
+				["[Blizzard] Bonfire"] = 51,
+				["Range I"] = 96,
+				["Attack I"] = 90,
+				["Cooldown I"] = 78,
+				["[Sandstorm] Clear Skies"] = 10,
 				["Explosive Deaths III"] = 75,
 				["[Blizzard] Frostbite"] = 53,
 				["[Rainy] Rain Barrel"] = 35,
-				["[Windy] Gale"] = 48,
-				["[Inferno] Phoenix"] = 44,
+				["[Blizzard] Whiteout"] = 50,
+				["[Starfall] Starforged"] = 26,
 				["Explosive Deaths II"] = 76,
-				["Boss Damage II"] = 64,
+				["[Sandstorm] Sand Armor"] = 12,
 				["[Rainy] Torrent"] = 39,
 				["Yen III"] = 62,
 				["[Inferno] Scorch"] = 40,
-				["[Sandstorm] Buried Treasure"] = 9,
+				["Random Blessings I"] = 66,
 				["Enemy Speed III"] = 81,
 				["Enemy Speed I"] = 83,
-				["[Magical] Leyline"] = 20,
+				["[Sandstorm] Buried Treasure"] = 9,
 				["Active Cooldown II"] = 58,
 				["[Flooded] Salvage"] = 14,
-				["Yen I"] = 60,
-				["[Inferno] Cinders"] = 41,
-				["Spellproof Enemies II"] = 6,
-				["Random Blessings II"] = 67,
-				["Enemy Regen I"] = 86,
-				["[Stormy] Squall"] = 34,
-				["[Magical] Mana Shield"] = 23,
 				["[Sandstorm] Dust Devil"] = 8,
-				["Random Blessings I"] = 66,
-				["[Sandstorm] Sand Armor"] = 12,
-				["[Starfall] Starforged"] = 26,
+				["[Inferno] Cinders"] = 41,
+				["[Magical] Mana Shield"] = 23,
+				["[Stormy] Squall"] = 34,
+				["Enemy Regen I"] = 86,
+				["Random Blessings II"] = 67,
+				["Spellproof Enemies II"] = 6,
+				["Yen I"] = 60,
+				["[Magical] Leyline"] = 20,
+				["Boss Damage II"] = 64,
 				["[Stormy] Supercell"] = 29,
+				["Boss Damage III"] = 65,
 				["[Inferno] Firebreak"] = 42,
-				["Attack III"] = 92,
-				["Double Attack, Half Range"] = 17,
+				["[Flooded] Tsunami"] = 16,
+				["Plated Enemies I"] = 73,
 				["Spellproof Enemies I"] = 74,
-				["[Blizzard] Bonfire"] = 51,
+				["[Blizzard] Hailstorm"] = 55,
 				["[Magical] Arcane Storm"] = 18,
-				["[Stormy] Eye of the Storm"] = 33,
-				["[Magical] Dispel"] = 22,
-				["Range I"] = 96,
+				["Range III"] = 98,
+				["Plated Enemies II"] = 5,
+				["Enemy Regen II"] = 85,
 				["Range II"] = 97,
 				["[Rainy] Flash Flood"] = 36,
-				["Random Curses III"] = 69,
-				["Enemy Regen III"] = 84,
-				["[Blizzard] Permafrost"] = 54,
-				["Attack II"] = 91,
+				["Double Attack, Double Cooldown"] = 17,
+				["Spellproof Enemies III"] = 3,
+				["[Windy] Kite Strings"] = 46,
+				["[Magical] Arcane Ward"] = 19,
 				["Resistant Enemies III"] = 1
 			},
 			["Enable"] = true
@@ -242,23 +248,23 @@ getgenv().Config = {
 			["Enable"] = true
 		},
 		["Smart Auto Ability"] = {
+			["Enabled"] = true,
 			["Menace"] = {
 				["Active Ability"] = {
 					["Enabled"] = true,
 					["Type"] = "Activate when Enemy in range",
 					["Only After Wave"] = 0,
-					["Enemy Type"] = "Any Enemy",
-					["Activation Delay"] = 1
+					["Activation Delay"] = 1,
+					["Enemy Type"] = "Any Enemy"
 				}
 			},
-			["Enabled"] = true,
 			["Shadowgirl (Time Traveller)"] = {
 				["Timestop"] = {
 					["Enabled"] = true,
 					["Type"] = "Activate when Enemy in range",
 					["Only After Wave"] = 0,
-					["Enemy Type"] = "Boss",
-					["Activation Delay"] = 1
+					["Activation Delay"] = 1,
+					["Enemy Type"] = "Boss"
 				}
 			},
 			["Menace (Terror)"] = {
@@ -270,6 +276,12 @@ getgenv().Config = {
 				}
 			}
 		},
-		["Auto Vote Start"] = true
+		["Auto Vote Start"] = true,
+		["Unit Mechanic"] = {
+			["Explosion Mage"] = {
+				["Auto Set Explosion Target"] = true,
+				["Target Mode"] = "Most Enemies"
+			}
+		}
 	}
 }
